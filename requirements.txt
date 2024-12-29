@@ -1,4 +1,6 @@
-gradio
+gradio==4.29.0
 imageio
 imageio-ffmpeg
 loguru
+opencv-python
+fastapi==0.112.2

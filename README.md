@@ -1,8 +1,12 @@
 # GUI for SAM2
-A GUI tool for SAM2 video segmentation.
+A GUI tool for SAM2 video segmentation. This demo has to be run on a workstation with a screen.
+
+## Guangqi TODO
+- [] Figure out why there is resolution mismatch between input and output.
 
 ## Installation
 You should install [SAM2](https://github.com/facebookresearch/segment-anything-2?tab=readme-ov-file) first.
+I use `SAM2-GUI/checkpoints/sam2.1_hiera_large.pt`.
 ```
 pip install -r requirements.txt
 ```
