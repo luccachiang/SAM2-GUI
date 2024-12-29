@@ -164,3 +164,4 @@ cython_debug/
 # guangqi
 checkpoints/
 *.mp4
+sam2/

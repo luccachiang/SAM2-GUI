@@ -179,6 +179,8 @@ class PromptGUI(object):
 
         # read images and drop the alpha channel
         images = [iio.imread(p)[:, :, :3] for p in self.img_paths]
+        # TODO
+        print(f"img shape: {images[0].shape}")
         
         video_segments = {}  # video_segments contains the per-frame segmentation results
         if torch.cuda.get_device_properties(0).major >= 8:
@@ -250,7 +252,7 @@ def get_hls_palette(
     return (255 * np.asarray(palette)).astype("uint8")
 
 
-def colorize_masks(images, index_masks, fac: float = 0.5):
+def colorize_masks(images, index_masks, fac: float = 0.5): # TODO
     max_idx = max([m.max() for m in index_masks])
     guru.debug(f"{max_idx=}")
     palette = get_hls_palette(max_idx + 1)

@@ -33,6 +33,7 @@ python mask_app.py --root_dir [data_root]
 python mask_app.py --root_dir data/sam2gui/241208 --checkpoint_dir checkpoints/sam2.1_hiera_large.pt --model_cfg configs/sam2.1/sam2.1_hiera_l.yaml
 ```
 ![gradio interface](asset/gradio_interface.png)
+Please first click on "Get SAM features" and then start segmenting. Frequently refer to the original repo issue for some error shot.
 
 ## Acknowledge
 The app is modified based on [shape-of-motion](https://github.com/vye16/shape-of-motion/?tab=readme-ov-file).
