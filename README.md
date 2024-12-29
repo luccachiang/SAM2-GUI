@@ -28,6 +28,9 @@ We highly encourage users to structure their data directories in the following w
 ## Usage
 ```
 python mask_app.py --root_dir [data_root]
+
+# e.g.
+python mask_app.py --root_dir data/sam2gui/241208 --checkpoint_dir checkpoints/sam2.1_hiera_large.pt --model_cfg configs/sam2.1/sam2.1_hiera_l.yaml
 ```
 ![gradio interface](asset/gradio_interface.png)
 
