@@ -162,6 +162,7 @@ cython_debug/
 #.idea/
 
 # guangqi
-checkpoints/
+# checkpoints/
 *.mp4
-sam2/
+*.pt
+# sam2/

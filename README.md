@@ -8,6 +8,12 @@ A GUI tool for SAM2 video segmentation. This demo has to be run on a workstation
 You should install [SAM2](https://github.com/facebookresearch/segment-anything-2?tab=readme-ov-file) first.
 I use `SAM2-GUI/checkpoints/sam2.1_hiera_large.pt`.
 ```
+git clone --recursive git@github.com:luccachiang/SAM2-GUI.git
+git submodule update --init --recursive
+conda create -n sam2-gui python=3.10 -y
+conda activate sam2-gui
+
+pip install -e sam2/
 pip install -r requirements.txt
 ```
 
